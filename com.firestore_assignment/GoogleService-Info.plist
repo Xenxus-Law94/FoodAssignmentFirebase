@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1050535949054-qb8jgb7o9bgkeedf29lpodgkl2pshmc6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1050535949054-qb8jgb7o9bgkeedf29lpodgkl2pshmc6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBb_F_M9wriMiTyUzO1OMos7w5qILPXGp4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1050535949054</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.padc.com-firestore-assignment</string>
+	<key>PROJECT_ID</key>
+	<string>fooditem-61923</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fooditem-61923.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1050535949054:ios:c529414dc7181450a12baf</string>
+	<key>DATABASE_URL</key>
+	<string>https://fooditem-61923.firebaseio.com</string>
+</dict>
+</plist>

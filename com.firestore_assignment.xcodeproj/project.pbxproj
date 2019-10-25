@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BC8AF17CB90963E411FA22A /* Pods_com_firestore_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C29328152D2E3D6D6A45C3 /* Pods_com_firestore_assignment.framework */; };
 		DBDFCA3523620F0E00BB44C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA3423620F0E00BB44C0 /* AppDelegate.swift */; };
 		DBDFCA3723620F0E00BB44C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA3623620F0E00BB44C0 /* SceneDelegate.swift */; };
-		DBDFCA3923620F0E00BB44C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA3823620F0E00BB44C0 /* ViewController.swift */; };
+		DBDFCA3923620F0E00BB44C0 /* FoodMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA3823620F0E00BB44C0 /* FoodMainController.swift */; };
 		DBDFCA3C23620F0E00BB44C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDFCA3A23620F0E00BB44C0 /* Main.storyboard */; };
 		DBDFCA3E23620F1000BB44C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDFCA3D23620F1000BB44C0 /* Assets.xcassets */; };
 		DBDFCA4123620F1000BB44C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDFCA3F23620F1000BB44C0 /* LaunchScreen.storyboard */; };
+		DBDFCA4B2362101B00BB44C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBDFCA4A2362101A00BB44C0 /* GoogleService-Info.plist */; };
+		DBDFCA4F2362D09400BB44C0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA4E2362D09400BB44C0 /* CardView.swift */; };
+		DBDFCA552362DA0600BB44C0 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA532362DA0600BB44C0 /* FoodTableViewCell.swift */; };
+		DBDFCA562362DA0600BB44C0 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDFCA542362DA0600BB44C0 /* FoodTableViewCell.xib */; };
+		DBDFCA592362DA6C00BB44C0 /* AssignmentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA582362DA6C00BB44C0 /* AssignmentVO.swift */; };
+		DBDFCA5B2363225C00BB44C0 /* CreateFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA5A2363225C00BB44C0 /* CreateFoodViewController.swift */; };
+		DBDFCA5E236324C100BB44C0 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCA5D236324C100BB44C0 /* ImagePickerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39711981248737EDA77E16B7 /* Pods-com.firestore_assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.firestore_assignment.release.xcconfig"; path = "Target Support Files/Pods-com.firestore_assignment/Pods-com.firestore_assignment.release.xcconfig"; sourceTree = "<group>"; };
+		68B77ED24CD20BC6BC591EFD /* Pods-com.firestore_assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.firestore_assignment.debug.xcconfig"; path = "Target Support Files/Pods-com.firestore_assignment/Pods-com.firestore_assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		D8C29328152D2E3D6D6A45C3 /* Pods_com_firestore_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_firestore_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDFCA3123620F0E00BB44C0 /* com.firestore_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.firestore_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDFCA3423620F0E00BB44C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBDFCA3623620F0E00BB44C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBDFCA3823620F0E00BB44C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBDFCA3823620F0E00BB44C0 /* FoodMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMainController.swift; sourceTree = "<group>"; };
 		DBDFCA3B23620F0E00BB44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBDFCA3D23620F1000BB44C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBDFCA4023620F1000BB44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBDFCA4223620F1000BB44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDFCA4A2362101A00BB44C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DBDFCA4E2362D09400BB44C0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DBDFCA532362DA0600BB44C0 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		DBDFCA542362DA0600BB44C0 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		DBDFCA582362DA6C00BB44C0 /* AssignmentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentVO.swift; sourceTree = "<group>"; };
+		DBDFCA5A2363225C00BB44C0 /* CreateFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFoodViewController.swift; sourceTree = "<group>"; };
+		DBDFCA5D236324C100BB44C0 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC8AF17CB90963E411FA22A /* Pods_com_firestore_assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		259B4756D5776F67B37F6D21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C29328152D2E3D6D6A45C3 /* Pods_com_firestore_assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58C3212C3C2596A05FA1FBE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B77ED24CD20BC6BC591EFD /* Pods-com.firestore_assignment.debug.xcconfig */,
+				39711981248737EDA77E16B7 /* Pods-com.firestore_assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DBDFCA2823620F0E00BB44C0 = {
 			isa = PBXGroup;
 			children = (
 				DBDFCA3323620F0E00BB44C0 /* com.firestore_assignment */,
 				DBDFCA3223620F0E00BB44C0 /* Products */,
+				58C3212C3C2596A05FA1FBE6 /* Pods */,
+				259B4756D5776F67B37F6D21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,94 @@
 		DBDFCA3323620F0E00BB44C0 /* com.firestore_assignment */ = {
 			isa = PBXGroup;
 			children = (
+				DBDFCA5C236324AA00BB44C0 /* filestorage */,
+				DBDFCA572362DA5100BB44C0 /* vos */,
+				DBDFCA4923620F2300BB44C0 /* storyboards */,
+				DBDFCA4823620F1900BB44C0 /* viewcontrollers */,
+				DBDFCA4C2362D03C00BB44C0 /* utils */,
+				DBDFCA502362D9D100BB44C0 /* cells */,
+				DBDFCA4D2362D07600BB44C0 /* components */,
 				DBDFCA3423620F0E00BB44C0 /* AppDelegate.swift */,
 				DBDFCA3623620F0E00BB44C0 /* SceneDelegate.swift */,
-				DBDFCA3823620F0E00BB44C0 /* ViewController.swift */,
-				DBDFCA3A23620F0E00BB44C0 /* Main.storyboard */,
 				DBDFCA3D23620F1000BB44C0 /* Assets.xcassets */,
-				DBDFCA3F23620F1000BB44C0 /* LaunchScreen.storyboard */,
 				DBDFCA4223620F1000BB44C0 /* Info.plist */,
+				DBDFCA4A2362101A00BB44C0 /* GoogleService-Info.plist */,
 			);
 			path = com.firestore_assignment;
+			sourceTree = "<group>";
+		};
+		DBDFCA4823620F1900BB44C0 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA3823620F0E00BB44C0 /* FoodMainController.swift */,
+				DBDFCA5A2363225C00BB44C0 /* CreateFoodViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		DBDFCA4923620F2300BB44C0 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA3A23620F0E00BB44C0 /* Main.storyboard */,
+				DBDFCA3F23620F1000BB44C0 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		DBDFCA4C2362D03C00BB44C0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DBDFCA4D2362D07600BB44C0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA4E2362D09400BB44C0 /* CardView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		DBDFCA502362D9D100BB44C0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA522362D9E300BB44C0 /* swifts */,
+				DBDFCA512362D9DB00BB44C0 /* xibs */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		DBDFCA512362D9DB00BB44C0 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA542362DA0600BB44C0 /* FoodTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		DBDFCA522362D9E300BB44C0 /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA532362DA0600BB44C0 /* FoodTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		DBDFCA572362DA5100BB44C0 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA582362DA6C00BB44C0 /* AssignmentVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		DBDFCA5C236324AA00BB44C0 /* filestorage */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFCA5D236324C100BB44C0 /* ImagePickerManager.swift */,
+			);
+			path = filestorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBDFCA4523620F1000BB44C0 /* Build configuration list for PBXNativeTarget "com.firestore_assignment" */;
 			buildPhases = (
+				E553F12C2398D8103F70F321 /* [CP] Check Pods Manifest.lock */,
 				DBDFCA2D23620F0E00BB44C0 /* Sources */,
 				DBDFCA2E23620F0E00BB44C0 /* Frameworks */,
 				DBDFCA2F23620F0E00BB44C0 /* Resources */,
+				40404C3D278227CF10B38301 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +246,69 @@
 			files = (
 				DBDFCA4123620F1000BB44C0 /* LaunchScreen.storyboard in Resources */,
 				DBDFCA3E23620F1000BB44C0 /* Assets.xcassets in Resources */,
+				DBDFCA562362DA0600BB44C0 /* FoodTableViewCell.xib in Resources */,
+				DBDFCA4B2362101B00BB44C0 /* GoogleService-Info.plist in Resources */,
 				DBDFCA3C23620F0E00BB44C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40404C3D278227CF10B38301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-com.firestore_assignment/Pods-com.firestore_assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-com.firestore_assignment/Pods-com.firestore_assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-com.firestore_assignment/Pods-com.firestore_assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E553F12C2398D8103F70F321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-com.firestore_assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBDFCA2D23620F0E00BB44C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBDFCA3923620F0E00BB44C0 /* ViewController.swift in Sources */,
+				DBDFCA3923620F0E00BB44C0 /* FoodMainController.swift in Sources */,
 				DBDFCA3523620F0E00BB44C0 /* AppDelegate.swift in Sources */,
+				DBDFCA552362DA0600BB44C0 /* FoodTableViewCell.swift in Sources */,
+				DBDFCA5B2363225C00BB44C0 /* CreateFoodViewController.swift in Sources */,
+				DBDFCA4F2362D09400BB44C0 /* CardView.swift in Sources */,
 				DBDFCA3723620F0E00BB44C0 /* SceneDelegate.swift in Sources */,
+				DBDFCA592362DA6C00BB44C0 /* AssignmentVO.swift in Sources */,
+				DBDFCA5E236324C100BB44C0 /* ImagePickerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,7 @@
 		};
 		DBDFCA4623620F1000BB44C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B77ED24CD20BC6BC591EFD /* Pods-com.firestore_assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +468,7 @@
 		};
 		DBDFCA4723620F1000BB44C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39711981248737EDA77E16B7 /* Pods-com.firestore_assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
